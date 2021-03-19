@@ -1,10 +1,10 @@
 [package]
-name = "simple-input"
+name = "simpler-input"
 version = "0.1.0"
-repository = "https://github.com/Tarnest/simple-input"
+repository = "https://github.com/Tarnest/simpler-input"
 authors = ["Tristan <tristanconnolly1@gmail.com>"]
-description = "A simple way of receiving input from a user"
-keywords = ["simple", "input", "simple_input", "readline", "read_line"]
+description = "A simpler way of receiving input from a user"
+keywords = ["simple", "input", "simpler_input", "readline", "read_line"]
 readme = "README.md"
 edition = "2018"
 license = "MIT OR Apache-2.0"
