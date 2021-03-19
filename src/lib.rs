@@ -14,7 +14,7 @@ mod tests {
         let a = input();
         let b = input();
         
-        assert_eq!(a, "is funny");
+        assert_eq!(a, "hello");
         assert_eq!(b, "test");
     }
 }
