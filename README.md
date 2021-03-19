@@ -1,0 +1,1 @@
+A simple way to receive input from a user.
