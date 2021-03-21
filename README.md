@@ -7,7 +7,7 @@ simpler-input = "0.2.0"
 
 There is only one function, so it's easier to implement and remember.
 
-```rs
+```rust
 use simpler-input::input;
 
 fn main() {
