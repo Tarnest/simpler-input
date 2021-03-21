@@ -1,6 +1,6 @@
 [package]
 name = "simpler-input"
-version = "0.1.0"
+version = "0.2.0"
 repository = "https://github.com/Tarnest/simpler-input"
 authors = ["Tristan <tristanconnolly1@gmail.com>"]
 description = "A simpler way of receiving input from a user"

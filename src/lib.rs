@@ -1,4 +1,10 @@
-pub fn input() -> String {
+pub fn input<'a>(s: impl Into<Option<&'a str>>) -> String {
+	let s_into = s.into();
+	
+	if s_into != None {
+		println!("{}", s_into.unwrap());
+	}
+	
 	let mut val = String::new();
 	std::io::stdin().read_line(&mut val).expect("Something went wrong with the input.");
 	
@@ -11,8 +17,8 @@ mod tests {
     
     #[test]
     fn input_test() {
-        let a = input();
-        let b = input();
+        let a = input(None);
+        let b = input("Hello there");
         
         assert_eq!(a, "hello");
         assert_eq!(b, "test");
