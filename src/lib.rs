@@ -20,7 +20,7 @@ mod tests {
         let a = input(None);
         let b = input("Hello there");
         
-        assert_eq!(a, "hello");
-        assert_eq!(b, "test");
+        assert_eq!(a, "hello\r");
+        assert_eq!(b, "test\r");
     }
 }

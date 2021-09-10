@@ -2,13 +2,13 @@ A simpler way to receive input from a user.
 
 ## **Usage**
 ```
-simpler-input = "0.2.0"
+simpler_input = "0.3.0"
 ```
 
 There is only one function, so it's easier to implement and remember.
 
 ```rust
-use simpler-input::input;
+use simpler_input::input;
 
 fn main() {
 	// if you decide to get user input with no text printed before, you must pass None as an arg
